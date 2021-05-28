@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wedding-tables-planner"
+version = "0.1.0"
+description = ""
+authors = ["Matteo Sasso <matteo.sasso@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.3"
+networkx = "^2.5.1"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
